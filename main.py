@@ -9,6 +9,6 @@ bot = Bot(
 )
 
 if __name__ == '__main__':
-    bot.load_dir('commands')
+    bot.load_subdir('cogs')
 
     bot.exec()
